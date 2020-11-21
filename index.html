@@ -25,14 +25,20 @@
         <a id="enurl" href="/index.html" class="langwrap langwrap_en"><img src="images/eng2.svg" alt=""></a>
         <a id="cnurl" href="/cn/index.html" class="langwrap langwrap_zh"><img src="images/chi2.svg?v=2" alt=""></a>
     </div>
+    <div class="socblock">
+        <a id="telegram" href="#" target="_blank" class="socwrap"><i class="fab fa-telegram"></i><span class="socdesc">Group</span></a>
+        <a id="discord" href="#" target="_blank" class="socwrap"><i class="fab fa-discord"></i><span class="socdesc">Group</span></a>
+    </div>
     <div class="wrapper">
         <div class="cbp-af-header">
             <div class="cbp-af-inner">
                 <nav>
-                    <a href="#about" class="scrollto"  style="color:var(--mainColor);font-weight:bold">About</a>
-                    <a href="#investments" class="scrollto" style="color:var(--mainColor);font-weight:bold">Invest</a>
-                    <a href="javascript:void(0)" data-remodal-target="invest" style="color:var(--mainColor);font-weight:bold">Deposit</a>
-                    <a href="javascript:void(0)" data-remodal-target="wallet" id="goToWallet" style="color:var(--mainColor);font-weight:bold">Wallet</a>
+                    <a href="#about" class="scrollto">About us</a>
+                    <a href="#investments" class="scrollto">Investments</a>
+                    <a href="https://justswap.io/#/scan/detail/trx/TP6wYrhEvvisKNJSXmTT1SaXVBguWPW4hz" target="_blank" id="goToWallet">Trade</a>
+                    <a href="#" class="mainlogo"><img src="images/tron_full.svg" alt="" style="height:32px;"></a>
+                    <a href="#" data-remodal-target="invest"><i class="far fa-donate"></i> Make deposit</a>
+                    <a href="#" data-remodal-target="wallet" id="goToWallet"><i class="far fa-wallet"></i> Wallet statistic</a>
                 </nav>
             </div>
         </div>
@@ -49,9 +55,8 @@
                         </div>
                         <div class="mainbackwrap">
                             <div class="mainbackdesc" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                                <span id="projectName" style="color:var(--mainColor);font-size:50px;font-weight:bold;">
-                                    - </span>
-                                <h1 style="margin-top:40px;line-height: 45px">Reliable investment，Roger that <span id="maxReward"> - </span> Deadline of your deposit</h1>
+                                <span id="projectName" style="color:#fff;font-size:58px;font-weight:400;"></span>
+                                <h1 style="margin-top:20px;line-height: 45px">Reliable investment，Roger that <span id="maxReward"> - </span> Deadline of your deposit</h1>
                                 <div class="maindesc">
                                     <div class="maindesctext" style="line-height:24px;">
                                         <span><i class="far fa-check-circle"></i> Decentralized blockchain and anonymous platform</span>
@@ -59,10 +64,13 @@
                                         <span><i class="far fa-check-circle"></i> The smart contract is verified and audited by an independent company</span>
                                         <a href="javascript:void(0)" data-remodal-target="invest"
                                             class="maindescbut">Invest</a>
-                                        <div class="maindesclink">
-                                            <a href="https://tronscan.io/#/contract/TP6wYrhEvvisKNJSXmTT1SaXVBguWPW4hz/code"
+                                            <div class="maindesclink">
+                                            <a href="https://tronscan.io/#/contract/TP6wYrhEvvisKNJSXmTT1SaXVBguWPW4hz"
                                                 class="maindesclink" target="_blank"><i
-                                                    class="fas fa-print-search"></i>Check the smart contract</a>
+                                                    class="fas fa-print-search"></i> TRS Token Contract</a>
+                                            <a href="https://tronscan.io/#/contract/TSNZopJN7hkNpQ9TzAyiv3H2eysWHdcLzf"
+                                                    class="maindesclink" target="_blank" style="margin-left:5px"><i
+                                                        class="fas fa-print-search"></i> Main Contract</a>
                                         </div>
                                     </div>
                                 </div>
@@ -287,7 +295,8 @@ The rewards appear in your wallet balance instantly, and you can withdraw the in
                             <i class="far fa-check-circle"></i> supply <b>10000000</b><br><br>
                             <i class="far fa-check-circle"></i> liquidity <b>500000</b><br><br>
                             <i class="far fa-check-circle"></i> The transfer has a burning attribute, 2.5% of the transfer amount is used for the prize pool, and 2.5% is burned directly<br><br>
-                            <i class="far fa-check-circle"></i> 2% of the investment is used to repurchase TRS for burning
+                            <i class="far fa-check-circle"></i> 2% of the investment is used to repurchase TRS for burning<br /><br />
+                            <i class="far fa-check-circle"></i> TRS Trade<a href="https://justswap.io/#/scan/detail/trx/TP6wYrhEvvisKNJSXmTT1SaXVBguWPW4hz" target="blank" style="color:var(--mainColor)"> justswap </a>
                         </div>
                     </div>
                 </div>
@@ -642,10 +651,6 @@ The rewards appear in your wallet balance instantly, and you can withdraw the in
                             <a id="discord" href="#" target="_blank" class="maincontbut supportlink"
                                 target="_blank">Discord</a>
                         </div>
-                        <div class="contlink" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                            <h3>Community :</h3>
-                            <a id="twitter" href="#" target="_blank" class="maincontbut supportlink">Twitter</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -743,7 +748,7 @@ The rewards appear in your wallet balance instantly, and you can withdraw the in
                             <a href="javascript:void(0)" class="maindescbut withdrawButton"
                                 style="text-shadow:0px 0px 0px #333;font-weight: bold;font-size: 16px;">extract</a>
                         </div>
-                        <div class="modallinenotify">The total amount that can be withdrawn=investment reward+invitation reward+node reward, TRS reward=investment reward/1000, the maximum investment reward is 200% of the total investment, the maximum amount of invitation and node withdrawals is the total investment.You can increase the investment amount, unlock the reward, and the withdrawal operation will reset the holding rate and holding days</div>
+                        <div class="modallinenotify">The total amount that can be withdrawn=investment reward+invitation reward+node reward, TRS reward=investment reward/1000, the maximum investment reward is 200% of the total investment, the maximum amount of invitation and node withdrawals is the total investment. You can increase the investment amount to unlock the reward, and the withdrawal operation will reset the holding interest rate and holding days</div>
                     </div>
                 </div>
             </div>
